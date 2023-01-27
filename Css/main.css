@@ -42,7 +42,8 @@
         border-bottom-left-radius: 5%;
         border-bottom-right-radius: 5%;
         display: grid;
-        min-width: 35vw;
+        min-width: 35vw
+        ;
         max-width: 40vw;
         min-height: 68vh;
         background-color: #fff;
