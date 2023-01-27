@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,400;0,9..144,700;1,9..144,300;1,9..144,400;1,9..144,600;1,9..144,700&family=Montserrat:wght@300&family=Outfit:wght@300&display=swap');
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        font-family: 'Fraunces', sans-serif;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(30, 38%, 92%);
+        color: hsl(228, 12%, 48%);
+    }
+    p{
+        padding: 0.5rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+    }
+    h1{
+        padding: 0.5rem;
+        color: #000;
+        font-weight: 700;
+    }
+
+    .perfume img{
+        max-width: 20vw;
+        min-height: 68vh;
+        max-height: auto;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+
+    .product{
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        display: grid;
+        min-width: 35vw;
+        max-width: 40vw;
+        min-height: 68vh;
+        background-color: #fff;
+        grid-template-columns: 0.7fr 1.3fr;
+    }
+
+    .description{
+        padding: 1rem;
+        overflow-wrap: break-word;
+    }
+    .button{
+        display: block;
+        position: relative;
+        width: 17vw;
+        height: 8vh;
+        background-color: hsl(130, 34%, 21%);
+        color:#fff;
+        top: 5.5%;
+        bottom : 0;   
+    }
+    .button p{
+        color:#fff;
+    }
+
+    .button a:hover{
+        cursor: pointer;
+    }
+    .price{
+        display: block;
+        position:relative;
+        top:2%;
+        font-weight: 1500;
+        color: hsl(130, 53%, 31%);
+        background-color: #f5f5f5;
+        width: 17vw;
+        height: 7vh;
+    }
+    .price p{
+        color: hsl(129, 46%, 31%);
+        font-size: 2rem;
+    }
+    .price span{
+        position: relative;
+        color: hsl(228, 12%, 48%);
+        font-size: 1rem;
+        bottom: 1rem;
+        left: 1.5rem;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
